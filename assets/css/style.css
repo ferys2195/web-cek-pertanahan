@@ -1,0 +1,36 @@
+@font-face {
+  font-family: 'ChangaOne';
+  src: url('../fonts/ChangaOne-Regular.ttf');   
+}
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../fonts/Montserrat-Light.ttf');   
+}
+
+.title-header {
+  font-family: 'ChangaOne', Fallback, sans-serif;;
+}
+.title-desc {
+  font-family: 'Montserrat', Fallback, sans-serif;;
+}
+body {
+  /*background-image: url(my-bg-pamalian.jpg);*/
+  min-height:100%;
+  background:linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../img/bg-pamalian.jpg');
+  background-size:cover;
+}
+.square-box {
+  max-width: 600px;
+  min-height: 600px;
+}
+
+#no-spt {
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.hidden {
+  visibility: hidden;
+}
+.show {
+  visibility: visible;
+}

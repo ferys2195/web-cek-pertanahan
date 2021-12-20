@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+
+    <title>Validasi Surat Tanah | Pemerintah Desa Pamalian</title>
+  </head>
+  <body>
+
+    <div class="container d-flex square-box justify-content-center align-items-center">
+      <div class="row">
+        <div class="col-lg-12 text-center text-light title-desc"><h3>Cek Pertanahan</h3></div>
+        <div class="col-lg-12 text-center text-success mb-3 title-header"><h1>P A M A L I A N</h1></div>
+        <div class="col-lg-12">
+          <input type="text" id="no-spt" name="search" onkeyup="showCaptcha()" class="form-control form-control-lg rounded-pill title-desc" placeholder="Masukan No. Registrasi surat"/>
+        </div>
+        <div class="col-lg-12">
+          <span class="text-small text-light">ex : 593.21/001/SPT/Pem/2021</span>
+        </div>
+        <div class="col-lg-12">
+          <button id="btn-search" class="btn btn-outline-primary rounded-pill mt-3 hidden" 
+          onclick="showNotif()">
+            Search
+          </button>
+        </div>
+      </div>
+    </div>
+    
+    <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/sweet-alert/sweetalert2.all.min.js"></script>
+    <script src="assets/js/config.js"></script>
+    <script src="assets/js/script.js"></script>
+    
+  </body>
+</html>
